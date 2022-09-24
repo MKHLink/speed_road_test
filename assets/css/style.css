@@ -39,13 +39,14 @@ header{
     font-size: 55px;
     color: #fce138;
     text-shadow: 0 0 10px rgb(33, 31, 31);
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 #card-img{
     filter: opacity(30%);
 }
+
+
 
 #contact-info{
     
@@ -71,4 +72,25 @@ footer{
     color: brown;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+@media screen and (max-width: 980px)
+{
+    #card-text h5, #card-text p{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    #card-text h5, #card-text p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    #card-text h5, #card-text p{
+        font-size: 20px;
+    }
 }
